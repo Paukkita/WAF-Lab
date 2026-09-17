@@ -1,10 +1,10 @@
 # 🛡️ WAF-Lab-OWASP
 
-Laboratorio práctico de ciberseguridad orientado a la **implementación y configuración de un Web Application Firewall (WAF)** para proteger una aplicación web frente a diferentes tipos de ataques.
+Laboratorio práctico de ciberseguridad web centrado en la implementación y configuración de un Web Application Firewall (WAF) para proteger una aplicación web frente a diferentes tipos de ataques. El entorno permite realizar pruebas controladas y analizar cómo el WAF detecta, bloquea y registra peticiones maliciosas.
 
 ## 📌 Objetivo
 
-Diseñar una infraestructura en la que el tráfico hacia la aplicación sea inspeccionado previamente por el WAF, permitiendo **detectar, bloquear y registrar peticiones maliciosas**, así como analizar los eventos de seguridad y ajustar las reglas de protección.
+Diseñar una infraestructura donde el tráfico hacia la aplicación sea inspeccionado por el WAF, permitiendo detectar, bloquear y registrar ataques como SQL Injection, XSS y Path Traversal. Además, se analizarán los logs generados y se integrarán con Wazuh para la generación de alertas y monitorización de eventos de seguridad.
 
 ## 🔧 Tecnologías
 
