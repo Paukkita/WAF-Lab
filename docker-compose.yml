@@ -27,8 +27,8 @@ services:
     container_name: laravel_db
     environment:
       MYSQL_DATABASE: laravel
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: secret
+      MYSQL_USER: pau
+      MYSQL_PASSWORD: paubaron
       MYSQL_ROOT_PASSWORD: rootsecret
     volumes:
       - dbdata:/var/lib/mysql
